@@ -170,6 +170,10 @@ section {
   margin: auto 0;
 }
 
+img {
+  border-radius: 40%;
+}
+
 .section_text {
   align-self: center;
   text-align: center;
@@ -262,7 +266,7 @@ button {
   position: relative;
 }
 
-.about-container {
+/* .about-container {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
@@ -276,10 +280,10 @@ button {
 .about-container,
 .about-details-container {
   display: flex;
-}
+} */
 
 .about-pic {
-  border-radius: 2rem;
+  border-radius: 5rem;
 }
 
 .arrow {
@@ -288,27 +292,21 @@ button {
   bottom: 2.5rem;
 }
 
-.details-container {
+.text-container {
   padding: 1.5rem;
   flex: 1;
   background: white;
-  border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
-  text-align: center;
+  text-align: left;
+  margin: auto;
 }
 
 .section-container {
-  gap: 4rem;
-  height: 80%;
+  gap: 10rem;
+  height: 50%;
 }
 
 .section_pic-container {
   height: 400px;
   width: 400px;
   margin: auto 0;
-}
-
-img {
-  border-radius: 50%;
 }
