@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo fancy-font">Andrea Diegaardt</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo fancy-font">Andrea Diegaardt</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section_pic-container">
+      <img src="./assets/andy-pic-01.jpg" alt="Andy profile picture">
+    </div>
+    <div class="section_text">
+      <p class="section_text_p1 fancy-font">Hello, I'm</p>
+      <h1 class="title fancy-font">Andy</h1>
+      <p class="section_text_p2 fancy-font">Frontend Developer</p>
+      <div class="btn-container">
+        <button class="btn-btn-color-2" onclick="window.open('./assets/cv-andy.pdf')">Download CV</button>
+        <button class="btn-btn-color-1" onclick="location.href = './#contact'">Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img
+        src="./assets/linkedin (2).png" alt="My LinkedIn profile"
+        class="icon"
+        onclick="location.href='https://www.linkedin.com/in/andy-diegaardt/'"
+        />
+        <img
+        src="./assets/github.png" alt="My Github profile" class="icon"
+        onclick="location.href='https://github.com/TechnoAndy'"
+        />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section_text_p1 ">Get To Know More</p>
+    <h1 class="title fancy-font">About Me</h1>
+    <div class="section-container">
+      <div class="section_pic-container">
+        <img
+         src="./assets/andy-pic-02-02.jpg.png"
+         alt="Profile picture"
+         class="about-pic"
+         />
+      </div>
+      <!-- <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img
+              src="./assets/experience.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <h3>Experience</h3>
+            <p>2+ years <br/>Frontend Development</p>
+          </div>
+          <div class="details-container">
+            <img
+              src="./assets/education.png"
+              alt="Education icon"
+              class="icon"
+            />
+            <h3>Education</h3>
+            <p>B.Sc. Bachelors Degree <br/>M.Sc. Master Degree</p>
+          </div>
+        </div> -->
+        <div class="text-container">
+          <p class="text-detail">As a skilled software developer, I specialize in building top-notch products, creating innovative features, and designing impressive websites. My experience and expertise allow me to craft reliable and efficient solutions for a wide range of projects.
+
+            I take pride in my work, and I encourage you to explore my portfolio to see the projects I've undertaken and the technologies I've mastered. If my work aligns with your requirements and excites you, I'm more than ready to collaborate on your next venture.
+
+            Whether you need a custom web application, a complex software feature, or a full-fledged website, I have the skills to bring your vision to life. Let's team up and create something exceptional together. Don't hesitate to reach out, and let's get started on making your project a success!
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow (1).png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+  </section>
+  <section id="experience">
+    <p class="section_text_p1">Explore My</p>
+    <h1 class="title fancy-font">Experience</h1>
+    <div class="about-containers">
+      <div class="details-container">
+        <h2 class="experience-sub-title">Frontend Development</h2>
+        <div class="article-container">
+          <article>
+            <img
+            src="./assets/checkmark.png"
+            alt="Experience Icon"
+            class="icon"
+            >
+            <div>
+              <h3>HTML</h3>
+              <p>Experience</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="./assets/checkmark.png"
+            alt="Experience Icon"
+            class="icon"
+            >
+            <div>
+              <h3>CSS</h3>
+              <p>Experience</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="./assets/checkmark.png"
+            alt="Experience Icon"
+            class="icon"
+            >
+            <div>
+              <h3>SASS</h3>
+              <p>Experience</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="./assets/checkmark.png"
+            alt="Experience Icon"
+            class="icon"
+            >
+            <div>
+              <h3>JavaScript</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="./assets/checkmark.png"
+            alt="Experience Icon"
+            class="icon"
+            >
+            <div>
+              <h3>Typesript</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="./assets/checkmark.png"
+            alt="Experience Icon"
+            class="icon"
+            >
+            <div>
+              <h3>Material UI</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="details-container">
+        <h2 class="experience-sub-title">Backend Development</h2>
+        <div class="article-container">
+          <article>
+            <img
+            src="./assets/checkmark.png"
+            alt="Experience Icon"
+            class="icon"
+            >
+            <div>
+              <h3>PostgreSQL</h3>
+              <p>Experience</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="./assets/checkmark.png"
+            alt="Experience Icon"
+            class="icon"
+            >
+            <div>
+              <h3>Express JS</h3>
+              <p>Experience</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="./assets/checkmark.png"
+            alt="Experience Icon"
+            class="icon"
+            >
+            <div>
+              <h3>Node JS</h3>
+              <p>Experience</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="./assets/checkmark.png"
+            alt="Experience Icon"
+            class="icon"
+            >
+            <div>
+              <h3>Rails</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="./assets/checkmark.png"
+            alt="Experience Icon"
+            class="icon"
+            >
+            <div>
+              <h3>Python</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="./assets/checkmark.png"
+            alt="Experience Icon"
+            class="icon"
+            >
+            <div>
+              <h3>Git</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+        </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <img
+    src="./assets/arrow (1).png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#projects'"
+    >
+  </section>
+  <section id="projects">
+    <p class="section_text_p1">Browse My Recent</p>
+    <h1 class="title fancy-font fancy-font">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/Space-travel (1).png"
+              alt="Meals DB"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Meals DB</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/TechnoAndy/Meals-DB'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://imaginative-bunny-380575.netlify.app/'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/Space-travel (1).png"
+              alt="Recipe app"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Recipe App</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/TechnoAndy/Rails_Recipe_App'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://recipe-app-ezza.onrender.com/foods'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/Space-travel (1).png"
+              alt="Space travellers hub"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Space Travel</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/TechnoAndy/space-travelers-hub'"
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://cool-cranachan-415bda.netlify.app/'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assets/arrow (1).png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#contact'"
+    />
+  </section>
+  <section id="contact">
+    <p class="section_text_p1">Get In Touch</p>
+    <h1 class="title fancy-font">Contact Me</h1>
+    <p class="contact-info-container">
+      If you have an application you are interested in developing,<br>
+      a feature that you need built or a project that needs coding.<br>
+      I'd love to help with it.
+    </p>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+        src="./assets/email.png"
+        alt="Email icon"
+        class="icon contact-icon email-icon"
+        >
+        <p><a href="mailto:atdiegaardt@gmail.com">atdiegaardt@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+        src="./assets/linkedin (2).png"
+        alt="LinkedIn icon"
+        class="icon contact-icon"
+        >
+        <p><a href="https://www.linkedin.com/in/andy-diegaardt/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Andrea Diegaardt. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
