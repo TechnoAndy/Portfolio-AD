@@ -178,10 +178,6 @@ section {
   margin: auto 0;
 }
 
-img {
-  border-radius: 40%;
-}
-
 .section_text {
   align-self: center;
   text-align: center;
@@ -385,7 +381,6 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
   width: 90%;
   height: 90%;
 }
