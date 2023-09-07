@@ -380,9 +380,20 @@ article .icon {
   background: rgb(250, 250, 250);
 }
 
+.project-con-meals {
+  margin-top: 5.2rem;
+}
+
+.project-con-recipe {
+  margin-top: 3.5rem;
+}
+
+.project-con-space {}
+
+
 .project-img {
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
 }
 
 .project-title {
