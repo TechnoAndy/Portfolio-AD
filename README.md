@@ -16,7 +16,7 @@ To get a local copy up and running follow these simple steps.
 
 Run the command below from the Terminal:
 
-git clone <URL> '(https://github.com/TechnoAndy/My-Portfolio)' in your terminal
+git clone <URL> '(https://github.com/TechnoAndy/Portfolio-AD)' in your terminal
 
 ## Live Project Demo
 
@@ -28,7 +28,7 @@ git clone <URL> '(https://github.com/TechnoAndy/My-Portfolio)' in your terminal
 
 GitHub: TechnoAndy
 
-LinkedIn: http://www.linkedin.com/in/andrea-diegaardt-110203116
+LinkedIn:(https://www.linkedin.com/in/andy-diegaardt/)
 
 
 ## 🤝 Contributing
